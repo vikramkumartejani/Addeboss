@@ -1,6 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Podkova", system-ui;
+}
+
+.bg-ig {
+  background-image: url("../app/assets/image.jpg");
+ }
+
+ .margin-bottom{
+  margin-bottom: 20px;
+ }
+ .margin-bottom:last-child{
+  margin-bottom: 0px;
+ }
 
 @layer base {
   :root {

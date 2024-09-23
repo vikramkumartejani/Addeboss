@@ -20,12 +20,12 @@ export default function PulsatingButton({
   return (
     <button
       className={cn(
-        "relative text-center cursor-pointer flex justify-center items-center rounded-lg text-white dark:text-black bg-blue-500 dark:bg-blue-500 px-4 py-2",
+        "w-[280px] relative h-[35px] sm:h-[46px] text-center cursor-pointer flex justify-center items-center rounded-lg text-[#141736] dark:text-black bg-[#FFFFFF] dark:bg-blue-500 px-4 py-2",
         className,
       )}
       style={
         {
-          "--pulse-color": pulseColor,
+          "--pulse-color": '#fff',
           "--duration": duration,
         } as React.CSSProperties
       }
