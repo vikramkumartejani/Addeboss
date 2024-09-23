@@ -11,11 +11,13 @@ import JoinUs from "@/components/JoinUs";
 import FAQ from "@/components/FAQ";
  import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 
 export default function Home() {
   return (
     <div>
+      <Hero/>
       {/* <Cnr/>   */}
       {/* <Sell/> */}
       {/* <Benefit/> */}
