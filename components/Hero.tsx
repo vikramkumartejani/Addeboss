@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className='font-[600] text-[15px] text-white content-center mr-10'>登录</p>
                 <button className='bg-[#2A9CF5] w-[246px] h-[46px] rounded-[10px] text-white'>创建账户</button>
             </div>
-            <div className='flex'>
+            <div className='flex' >
                 <div className='mr-16'>
                     <h1 className='max-w-[440px] w-full font-[700] text-[73px] text-white leading-[110px]'> 我们有客户， 您有产品</h1>
                     <p className='max-w-[534px] w-full font-[400] text-[24px] text-[#ffffff] opacity-[70%] my-6 leading-[45px]'>让我们来处理吧。我们为您提供所有必要的工具、无限量的客户，以及一个可以建立您业务的平台，而您只需专注于您已经擅长的事情。</p>
