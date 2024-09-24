@@ -2,14 +2,12 @@ import { SVGProps } from "react";
 
 export interface SafariProps extends SVGProps<SVGSVGElement> {
   url?: string;
-  src?: string;
-  width?: number;
+   width?: number;
   height?: number;
 }
 
 export default function Safari({
-  src,
-  url,
+   url,
   width = 1200,
   height = 1000,
   ...props

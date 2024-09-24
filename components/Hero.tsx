@@ -2,8 +2,7 @@ import React from 'react'
 import Man from '../app/assets/hero.png'
 import Search from '../app/assets/search.svg'
 import Image from 'next/image'
-import { div } from 'framer-motion/client'
-
+ 
 const Hero = () => {
   return (
     <>
