@@ -6,7 +6,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <>
-        <div className='w-full bg-[#141736] px-16 py-10 pb-28'>
+        <div className='w-full bg-[#141736] px-16 py-10 pb-28 '>
             <div className='flex justify-end mb-10'>
                 <p className='font-[600] text-[15px] text-white content-center mr-10'>登录</p>
                 <button className='bg-[#2A9CF5] w-[246px] h-[46px] rounded-[10px] text-white'>创建账户</button>
