@@ -12,8 +12,7 @@ import Image from "next/image";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 
-// Data array containing the information for each slide
-const slideData = [
+ const slideData = [
   {
     icon: One,
     title: "低费用与透明定价",
@@ -64,10 +63,12 @@ const WhyChooseUs = () => {
                 nextEl: nextRef.current,
               }}
               onInit={(swiper) => {
-                swiper.params.navigation.prevEl = prevRef.current;
-                swiper.params.navigation.nextEl = nextRef.current;
-                swiper.navigation.init();
-                swiper.navigation.update();
+                if (swiper.params.navigation && typeof swiper.params.navigation !== "boolean") {
+                  swiper.params.navigation.prevEl = prevRef.current;
+                  swiper.params.navigation.nextEl = nextRef.current;
+                  swiper.navigation.init();
+                  swiper.navigation.update();
+                }
               }}
               breakpoints={{
                 640: { slidesPerView: 1 },
