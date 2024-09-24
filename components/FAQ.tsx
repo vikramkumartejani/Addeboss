@@ -56,7 +56,7 @@ const FAQ = () => {
             <div className='-mt-[200px] w-full max-w-[1220px] mx-auto bg-white px-4 py-6 md:p-10 rounded-[25px] md:rounded-[32px] border border-[#B2C0DB66]'>
                 <div>
                     {faqs.map((faq, index) => (
-                        <div key={index} className="margin-bottom border-b-[1.5px] border-[#141736] border-opacity-10 pb-5">
+                        <div key={index} className="margin-bottom custom-border border-opacity-10">
                             <div className="flex justify-between items-center cursor-pointer gap-5" onClick={() => toggleFAQ(index)}>
                                 <h3 className="text-lg md:text-2xl leading-[39px] md:leading-[46px] font-semibold text-[#141736]">{faq.question}</h3>
                                 <span className="min-w-[20px] text-xl font-bold">

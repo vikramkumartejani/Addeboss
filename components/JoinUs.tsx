@@ -24,7 +24,7 @@ const JoinUs = () => {
             </p>
             
             {/* Buttons */}
-            <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-6">
+            <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6">
               <PulsatingButton>Sign Up</PulsatingButton>
               <PulsatingButton>List Your Products</PulsatingButton>
               <PulsatingButton>Start Selling</PulsatingButton>
