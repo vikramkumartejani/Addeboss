@@ -95,7 +95,7 @@ const CNRMarketplace = () => {
       <div className="max-w-[1240px] px-5 m-auto">
         <h1 className="text-[30px] sm:text-[45px] font-bold text-left text-[#141736]">为什么在 CNRMarketplace 上销售是显而易见的选择？</h1>
         <div className="px-3">
-          <div className="relative z-50 bg-white px-5 sm:px-10 py-10 border border-[#B2C0DB66] rounded-[20px] mt-[65px] pb-20">
+          <div className="relative z-40 bg-white px-5 sm:px-10 py-10 border border-[#B2C0DB66] rounded-[20px] mt-[65px] pb-20">
             {/* Buttons */}
             <div className="flex justify-end gap-7 mb-10">
               <button onClick={handlePrevSlide}>

@@ -7,11 +7,13 @@ import FAQ from "@/components/FAQ";
  import WhyChooseUs from "@/components/WhyChooseUs";
 import Footer from "@/components/Footer";
 import IntegratedPlatform from "@/components/IntegratedPlatform";
- 
+import Hero from "@/components/Hero";
+
 
 export default function Home() {
   return (
     <div>
+      <Hero/>
       <IntegratedPlatform/>
       <CNRMarketplace/>
       <BenefitsForSellers/>
