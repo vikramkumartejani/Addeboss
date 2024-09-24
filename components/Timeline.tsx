@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { FaCheckCircle } from "react-icons/fa";
 import Arrow from '../app/assets/arrow.svg'
 
 export default function Timeline() {

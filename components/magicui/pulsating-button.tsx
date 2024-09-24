@@ -6,15 +6,13 @@ import { cn } from "@/lib/utils";
 
 interface PulsatingButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  pulseColor?: string;
-  duration?: string;
+   duration?: string;
 }
 
 export default function PulsatingButton({
   className,
   children,
-  pulseColor = "#0096ff",
-  duration = "1.5s",
+   duration = "1.5s",
   ...props
 }: PulsatingButtonProps) {
   return (

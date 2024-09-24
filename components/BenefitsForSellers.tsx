@@ -1,6 +1,5 @@
 import React from "react";
 import Timeline from "./Timeline";
-import Image from "next/image";
 
 import Safari from "@/components/magicui/safari";
 

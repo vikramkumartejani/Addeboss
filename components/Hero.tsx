@@ -6,7 +6,7 @@ import { div } from 'framer-motion/client'
 
 const Hero = () => {
   return (
-    <div>
+    <>
         <div className='w-full bg-[#141736] px-16 py-10 pb-28' >
             <div className='flex justify-end mb-10'>
                 <p className='font-[600] text-[15px] text-white content-center mr-10'>登录</p>
@@ -66,7 +66,7 @@ const Hero = () => {
             这种不断增长的需求为卖家进入一个利润丰厚的市场提供了绝佳机会。
             </p>
         </div>
-    </div>
+    </>
   )
 }
 

@@ -16,16 +16,6 @@ const IntegratedPlatform = () => {
         '我们都知道，简单是关键。为什么还要不断切换过时且不相关的工具，而不是在一个地方简化一切？我们的平台是你业务一直期待的升级——一个真正的一体化解决方案，将你成功销售所需的一切集于一处。忘掉管理多个服务的麻烦；在这里，你将找到一个全面的工具平台，宣在让销售变得更轻松、更智能、更有利可图。告别旧的方式，迎接一个与你一样雄心勃勃的平台。',
       ];
     const [activeIndex, setActiveIndex] = useState<number>(0);
-
-  const nextSlide = (): void => {
-    setActiveIndex((prevIndex) => (prevIndex + 1) % slides.length);
-  };
-
-  const prevSlide = (): void => {
-    setActiveIndex((prevIndex) =>
-      prevIndex === 0 ? slides.length - 1 : prevIndex - 1
-    );
-  };
   return (
     <div className='w-full relative px-3 overflow-hidden'>
         <Image src={leftImage} alt='right' className='absolute -left-28 sm:left-0 top-10 sm:block hidden' />

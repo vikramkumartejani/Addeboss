@@ -1,6 +1,5 @@
 import React from 'react'
-import LowFees from '../assets/low-fees.svg'
-
+ 
 const WhyChooseUs = () => {
   return (
     <div className='py-12'>

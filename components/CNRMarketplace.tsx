@@ -7,7 +7,7 @@ import Right from '../app/assets/right.svg';
 import Left from '../app/assets/left.svg';
 import CustomerDiscovery from '../app/assets/customer-discovery.svg'
 
-const Sell = () => {
+const CNRMarketplace = () => {
   const slides = [
     {
       id: 1,
@@ -130,7 +130,7 @@ const Sell = () => {
               <div className="text-white">
                 <h2 className="text-[32px] sm:text-[45px] font-bold leading-[46px] md:text-left text-center">客户发现</h2>
                 <p className="mt-7 text-[14px] sm:text-[20px] font-normal leading-[27px] opacity-70 md:text-left text-center max-w-[792px]">这个行业的客户早已期待像 CNR Marketplace 这样的平台。一个一站式的市场，无论是浏览无尽的产品列表还是将新卖家添加到他们的收藏列表中，我们都有这些客户。他们需要你！</p>
-                <div className="flex items-center justify-center">
+                <div className="flex items-center justify-center sm:justify-start">
                   <button className="mt-8 sm:mt-12 bg-[#2A9CF5] rounded-[10px] w-[202px] sm:w-[276px] h-[33px] sm:h-[46px] text-white  text-[12px] sm:text-[16px] leading-[32px] font-semibold">现在加入我们</button>
                 </div>
               </div>
@@ -141,4 +141,4 @@ const Sell = () => {
   );
 };
 
-export default Sell;
+export default CNRMarketplace;
