@@ -41,20 +41,6 @@ import { IoIosArrowForward } from "react-icons/io";
       "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
     bgColor: "bg-blue-600",
   },
-  {
-    icon: One,
-    title: "用户友好的卖家仪表板",
-    description:
-      "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
-    bgColor: "bg-blue-600",
-  },
-  {
-    icon: One,
-    title: "用户友好的卖家仪表板",
-    description:
-      "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
-    bgColor: "bg-blue-600",
-  },
 ];
 
 const WhyChooseUs = () => {
@@ -71,7 +57,7 @@ const WhyChooseUs = () => {
           <div className="w-full">
             <Swiper
               spaceBetween={30}
-              slidesPerView={3}
+              slidesPerView={1}
               navigation={{
                 prevEl: prevRef.current,
                 nextEl: nextRef.current,
