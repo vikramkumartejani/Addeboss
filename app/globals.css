@@ -51,8 +51,30 @@ body {
 
 .custom-shadow{
   box-shadow: 0px 4px 4px 0px #00000040;
-
 }
+
+/* Customize the scrollbar for the whole page */
+body::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #141736; /* Background color of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2A9CF5; /* Scrollbar color */
+  border-radius: 6px;  
+  height: 100px;
+  width: 10px;
+  border: 3px solid #2A9CF5; /* Space around the thumb */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color on hover */
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;

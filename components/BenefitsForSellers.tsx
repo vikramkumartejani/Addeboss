@@ -9,7 +9,7 @@ const BenefitsForSellers = () => {
         卖家无与伦比的好处
       </h1>
 
-      <div className="flex md:flex-row flex-col justify-between items-start w-full gap-[50px] lg:gap-[70px]">
+      <div className="flex md:flex-row flex-col justify-between items-start w-full gap-[30px] sm:gap-[50px] lg:gap-[70px]">
         <div className=" md:max-w-[616px] w-full ">
           <div className="">
             <p className="mb-[21px] md:mb-[30px] xl:w-[617px] font-normal lg:leading-[40px] leading-[28px] text-[17px] sm:text-[20px] lg:text-[24px] opacity-70 text-[#141736]">

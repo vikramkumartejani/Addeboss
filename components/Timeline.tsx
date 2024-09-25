@@ -74,8 +74,8 @@ export default function Timeline() {
     <div className="ml-6 md:ml-0">
       <div className="relative border-l-2 border-[#141736] border-dashed border-opacity-10">
         {timelineItems.map((item, index) => (
-          <div key={index} className="mb-5 md:mb-8 ml-4 md:ml-6">
-            <span className="absolute flex items-center justify-center w-[36px] h-[36px] md:w-12 md:h-12 bg-[#2A9CF5] rounded-full -left-5 md:-left-6">
+          <div key={index} className="mb-5 md:mb-8 ml-2.5 sm:ml-4 md:ml-6">
+            <span className="absolute flex items-center justify-center w-[30px] h-[30px] sm:w-[36px] sm:h-[36px] md:w-12 md:h-12 bg-[#2A9CF5] rounded-full -left-4 sm:-left-5 md:-left-6">
               <Image src={Arrow} alt="Arrow" className="sm:w-[20px] w-[13px] sm:h-[15px]" />
             </span>
             <div className="px-4 bg-white rounded-lg">

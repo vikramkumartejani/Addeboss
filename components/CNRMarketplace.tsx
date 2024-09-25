@@ -56,12 +56,12 @@ const CNRMarketplace = () => {
 
   return (
     <div className="w-full pt-16 pb-12">
-      <div className="max-w-[1240px] px-5 m-auto">
-        <h1 className="text-[30px] sm:text-[45px] font-bold text-left text-[#141736]">
+      <div className="max-w-[1240px] px-3 md:px-5 m-auto">
+        <h1 className="text-[30px] sm:text-[45px] font-bold text-center sm:text-left text-[#141736]">
           为什么在 CNRMarketplace 上销售是显而易见的选择？
         </h1>
         <div className="px-3">
-          <div className="relative z-40 bg-white px-5 sm:px-10 py-10 border border-[#B2C0DB66] rounded-[20px] mt-[65px] pb-20">
+          <div className="relative z-40 bg-white px-3.5 sm:px-10 py-8 sm:py-10 border border-[#B2C0DB66] rounded-[20px] mt-[65px] pb-20">
             <div className="flex justify-end mb-5">
               {/* Custom Navigation Buttons */}
               <button
@@ -93,7 +93,7 @@ const CNRMarketplace = () => {
             >
               {slides.map((slide) => (
                 <SwiperSlide key={slide.id}>
-                  <div className="pr-5 flex flex-col items-left w-full">
+                  <div className="md:pr-5 flex flex-col items-left w-full">
                     <div className="border-none rounded-[15px] bg-[#0177FB] w-[80px] sm:w-[90px] h-[80px] sm:h-[90px] flex items-center justify-center">
                       <Image
                         src={slide.icon}
