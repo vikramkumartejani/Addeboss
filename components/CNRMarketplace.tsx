@@ -10,7 +10,8 @@ import Read from "../app/assets/Read.svg";
 import Left from "../app/assets/L-arrow.svg";
 import Right from "../app/assets/R-arrow.svg";
 import CustomerDiscovery from "../app/assets/customer-discovery.svg";
-import SwiperCore, { Swiper as SwiperType } from "swiper";
+import { Swiper as SwiperType } from "swiper";
+
 
 const CNRMarketplace = () => {
   // Refs for custom navigation buttons
