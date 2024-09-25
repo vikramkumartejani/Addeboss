@@ -41,6 +41,20 @@ import { IoIosArrowForward } from "react-icons/io";
       "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
     bgColor: "bg-blue-600",
   },
+  {
+    icon: One,
+    title: "用户友好的卖家仪表板",
+    description:
+      "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
+    bgColor: "bg-blue-600",
+  },
+  {
+    icon: One,
+    title: "用户友好的卖家仪表板",
+    description:
+      "使用我们直观且功能丰富的卖家仪表板轻松管理你的店铺。实时销售跟踪、库存管理和订单处理都在一个地方完成。",
+    bgColor: "bg-blue-600",
+  },
 ];
 
 const WhyChooseUs = () => {
@@ -57,7 +71,7 @@ const WhyChooseUs = () => {
           <div className="w-full">
             <Swiper
               spaceBetween={30}
-              slidesPerView={1}
+              slidesPerView={3}
               navigation={{
                 prevEl: prevRef.current,
                 nextEl: nextRef.current,
@@ -103,7 +117,7 @@ const WhyChooseUs = () => {
             </Swiper>
 
             {/* Custom Navigation Arrows */}
-            <div className="absolute top-[65%] left-2 xl:left-0 transform -translate-y-1/2 z-50">
+            <div className="sm:block hidden absolute top-[65%] left-2 xl:left-0 transform -translate-y-1/2 z-50">
               <button
                 ref={prevRef}
                 className="border rounded-full bg-white shadow-xl min-w-[40px] min-h-[40px] flex items-center justify-center"
@@ -111,7 +125,7 @@ const WhyChooseUs = () => {
                 <IoIosArrowBack size={25} />
               </button>
             </div>
-            <div className="absolute top-[65%] right-2 xl:right-0 transform -translate-y-1/2 z-50">
+            <div className="sm:block hidden absolute top-[65%] right-2 xl:right-0 transform -translate-y-1/2 z-50">
               <button
                 ref={nextRef}
                 className="border rounded-full bg-white shadow-xl min-w-[40px] min-h-[40px] flex items-center justify-center"

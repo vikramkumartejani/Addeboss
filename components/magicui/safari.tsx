@@ -15,6 +15,7 @@ export default function Safari({
   return (
     <svg
       width={width}
+      className=" sticky"
       height={height}
       viewBox={`0 0 ${width} ${height}`}
       fill="none"
