@@ -6,12 +6,13 @@ import DotThree from '../app/assets/dot-three.svg'
 import LineOne from '../app/assets/hero-lines.svg'
 import DidYouKnow from '../app/assets/did-you-know.svg'
 import DidYouKnowBG from '../app/assets/did-you-know-bg.svg'
-import Menu from '../app/assets/menu.svg'
-import Image from 'next/image'
+ import Image from 'next/image'
 import { AnimatedListDemo } from './AnimatedListDemo'
 import { RxCross1 } from "react-icons/rx";
 import { motion, AnimatePresence } from 'framer-motion';
+import { RiMenu4Line } from "react-icons/ri";
  
+
 const Hero = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
   return (
@@ -28,7 +29,8 @@ const Hero = () => {
                         <p className='font-semibold text-[15px] text-black leading-[32px]'>登录</p>
                         <button className='bg-[#2A9CF5] w-[216px] h-[46px] rounded-[10px] text-[#F6F9FE] text-[15px] font-semibold'>创建账户</button>
                     </div>
-                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className='md:hidden block relative z-50'><Image src={Menu} alt='Menu' width={21} height={16}/></button>
+                    <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className='md:hidden block relative z-50'><RiMenu4Line className='text-black' size={35} />
+                    </button>
                     {/* Mobile Menu */}
                     <AnimatePresence>
                         {isMobileMenuOpen && (
