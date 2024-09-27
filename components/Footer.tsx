@@ -26,7 +26,7 @@ const Footer = () => {
                     <div className='flex flex-col'>
                         <h3 className='text-white text-[17px] sm:text-[20px] leading-[25px] font-semibold mb-5'>Company</h3>
                         <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>Careers</Link>
-                        <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>About Us</Link>
+                        <Link href='#aboutus' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>About Us</Link>
                         <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50'>How it Works</Link>
                     </div>
                     <div className='flex flex-col'>
@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className='flex items-center gap-5 md:gap-12 md:flex-nowrap flex-wrap justify-center'>
                     <Link href='/' className='text-[14px] sm:text-[20px] leading-[25px] font-normal opacity-50'>Terms & Conditions</Link>
                     <Link href='/' className='text-[14px] sm:text-[20px] leading-[25px] font-normal opacity-50'>Privacy Policy</Link>
-                    <Link href='/' className='text-[14px] sm:text-[20px] leading-[25px] font-normal opacity-50'>FAQs</Link>
+                    <Link href='#faq' className='text-[14px] sm:text-[20px] leading-[25px] font-normal opacity-50'>FAQs</Link>
                 </div>
             </div>
         </div>

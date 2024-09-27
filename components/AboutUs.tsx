@@ -4,7 +4,7 @@ import About from "../app/assets/aboutus.svg";
 
 const AboutUs = () => {
   return (
-    <div className="flex justify-between items-center lg:items-start w-full max-w-[1232px] flex-col lg:flex-row m-auto pb-[40px] sm:pb-[110px] lg:py-[110px] gap-12 px-3">
+    <div id="aboutus" className="flex justify-between items-center lg:items-start w-full max-w-[1232px] flex-col lg:flex-row m-auto pb-[40px] sm:pb-[110px] lg:py-[110px] gap-12 px-3">
       <Image
         src={About}
         alt=""

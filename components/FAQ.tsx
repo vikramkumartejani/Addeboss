@@ -16,19 +16,19 @@ type FAQ = {
     },
     {
       question: "我可以将其他平台上的现有产品列表导入到 CNR Marketplace 吗？",
-      answer: "是的，你可以通过我们的导入工具将现有产品列表导入到 CNR Marketplace。"
+      answer: " 是的，您可以将现有的产品导入我们的商店！我们为您准备了一切，帮助您快速开始！"
     },
     {
       question: "提现我的收益有哪些支付选项？",
-      answer: "你可以通过多种支付方式提现，包括银行转账和 PayPal。"
+      answer: "您可以通过多种付款方式提现，包括银行转账和PayPal。请告诉我们您具体想使用的付款方式"
     },
     {
       question: "我如何在 CNRMarketplace 上接触到国际客户？",
-      answer: "CNRMarketplace 提供多语言支持和国际配送选项，帮助你接触到全球客户。"
+      answer: "凭借我们在营销、搜索引擎优化策略以及对海外市场和客户的整体经验，您可以保证通过我们的网站，您的业务将通过我们精心制定的营销策略获得大量流量。"
     },
     {
       question: "在 CNR Marketplace 上销售是否免费？",
-      answer: "在 CNR Marketplace 上注册是免费的，但我们会收取一定的交易费用。"
+      answer: "目前，在 CNR-Marketplace 注册是完全免费的！"
     }
   ];
   
@@ -40,7 +40,7 @@ const FAQ = () => {
     };
   return (
     < >
-        <div className='bg-[#141736] w-full py-12 px-3'>
+        <div id='faq' className='bg-[#141736] w-full py-12 px-3'>
             <div className='w-full max-w-[1220px] mx-auto pb-[175px]'>
                 <div className='flex items-center gap-5 md:gap-[99px]'>
                     <h3 className='text-white text-[16px] sm:text-[20px] font-bold leading-[36px]'>常见问题解答</h3>
