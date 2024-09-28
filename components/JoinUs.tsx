@@ -29,10 +29,10 @@ const JoinUs = () => {
               <Link href='https://cnrmarketplace.com/vendor-register/'>
               <PulsatingButton>Sign Up</PulsatingButton>
               </Link>
-              <Link href='https://cnrmarketplace.com/'>
+              <Link href='https://cnrmarketplace.com/vendor-register/'>
               <PulsatingButton>List Your Products</PulsatingButton>
               </Link>
-              <Link href='https://cnrmarketplace.com/store-listing/'>
+              <Link href='https://cnrmarketplace.com/vendor-register/'>
               <PulsatingButton>Start Selling</PulsatingButton>
               </Link>
             </div>

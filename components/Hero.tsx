@@ -62,7 +62,7 @@ const Hero = () => {
                         <p className='lg:max-w-[534px] w-full font-normal text-[15px] sm:text-[24px] text-[#141736] opacity-70 mt-[19px] mb-[36px] leading-[27px] sm:leading-[45px]'>让我们来处理吧。我们为您提供所有必要的工具、无限量的客户，以及一个可以建立您业务的平台，而您只需专注于您已经擅长的事情。</p>
                         <div className='flex gap-10 sm:gap-[63px] items-center'>
                             <Link href='https://cnrmarketplace.com/become-a-vendor/' className='flex items-center justify-center w-[161px] sm:w-[260px] bg-[#2A9CF5] h-[28px] sm:h-[46px] border-[1.64px] rounded-[23px] font-semibold text-[11px] sm:text-[18px] text-white'>成为卖家</Link>
-                            <Link href='https://d-themes.com/wordpress/wolmart/elements/about-us/' target='_blank' className='text-black text-[11px] sm:text-[18px] font-semibold leading-[36px] underline underline-offset-4'>了解更多</Link>
+                            <Link href='https://cnrmarketplace.com/about-us/' target='_blank' className='text-black text-[11px] sm:text-[18px] font-semibold leading-[36px] underline underline-offset-4'>了解更多</Link>
                         </div>
                     </div>
                     <div className='w-full'>
