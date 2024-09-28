@@ -123,11 +123,11 @@ export function Beam() {
 }
 
 const Icons = {
-  notion: () => <Image src={OIP} alt="oip" className="w-full h-full grayscale rounded-full"/>,
-  openai: () => <Image src={MiddleLogo} alt="MiddleLogo" className="w-full grayscale h-full rounded-full"/>,
-  googleDrive: () => <Image src={P} alt="p" className="w-full h-full grayscale rounded-full"/>,
-  whatsapp: () => <Image src={Taobao} alt="taobao" className="w-full h-full grayscale rounded-full"/>,
-  googleDocs: () => <Image src={Channels} alt="channels" className="w-full h-full grayscale rounded-full"/>,
-  zapier: () => <Image src={Fr} alt="fr" className="w-full h-full grayscale rounded-full"/>,
-  messenger: () => <Image src={WebChat} alt="WebChat" className="w-full h-full grayscale rounded-full"/>,
+  notion: () => <Image src={OIP} alt="oip" className="w-full h-full contrast rounded-full"/>,
+  openai: () => <Image src={MiddleLogo} alt="MiddleLogo" className="w-full h-full rounded-full"/>,
+  googleDrive: () => <Image src={P} alt="p" className="w-full h-full contrast rounded-full"/>,
+  whatsapp: () => <Image src={Taobao} alt="taobao" className="w-full h-full contrast rounded-full"/>,
+  googleDocs: () => <Image src={Channels} alt="channels" className="w-full h-full contrast rounded-full"/>,
+  zapier: () => <Image src={Fr} alt="fr" className="w-full h-full contrast rounded-full"/>,
+  messenger: () => <Image src={WebChat} alt="WebChat" className="w-full h-full contrast rounded-full"/>,
 };
