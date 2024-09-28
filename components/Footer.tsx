@@ -16,8 +16,8 @@ const Footer = () => {
                     <Image src={Logo} alt='Logo' />
                     <p className='text-[16px] sm:text-[20px] sm:leading-[25px] font-normal opacity-50 sm:max-w-[400px] pt-[38px] pb-6 sm:pb-[60px]'>CNRMarketplace is a secure, user-friendly  platform for buying and selling high-quality replica goods globally.</p>
                     <div className='flex items-center gap-5'>
-                        <Link href='/'><Image src={Meta} alt='Meta' width={31} height={21}/></Link>
-                        <Link href='/'><Image src={Twiiter} alt='Twiiter' width={25} height={23}/></Link>
+                        <Link href='https://www.facebook.com/sharer.php?u=https://cnrmarketplace.com/'><Image src={Meta} alt='Meta' width={31} height={21}/></Link>
+                        <Link href='https://twitter.com/intent/tweet?text=Home&amp;url=https://cnrmarketplace.com/' target='_blank'><Image src={Twiiter} alt='Twiiter' width={25} height={23}/></Link>
                         <Link href='/'><Image src={Instagram} alt='Instagram' width={26} height={26}/></Link>
                         <Link href='/'><Image src={Youtube} alt='Youtube' width={37} height={25}/></Link>
                     </div>
@@ -26,13 +26,15 @@ const Footer = () => {
                     <div className='flex flex-col'>
                         <h3 className='text-white text-[17px] sm:text-[20px] leading-[25px] font-semibold mb-5'>Company</h3>
                         <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>Careers</Link>
-                        <Link href='#aboutus' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>About Us</Link>
+                        <Link href='https://cnrmarketplace.com/about-us/' target='_blank' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>About Us</Link>
                         <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50'>How it Works</Link>
                     </div>
                     <div className='flex flex-col'>
                         <h3 className='text-white text-[17px] sm:text-[20px] leading-[25px] font-semibold mb-5'>链接</h3>
-                        <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5'>创建账户</Link>
-                        <Link href='/' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50'>登录</Link>
+                        <Link href="https://cnrmarketplace.com/my-account/" target="_blank" className="text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50 mb-2.5">
+                            创建账户
+                        </Link>
+                        <Link href='https://cnrmarketplace.com/my-account/' target='_blank' className='text-[17px] sm:text-[20px] leading-[25px] font-normal opacity-50'>登录</Link>
                     </div>
                 </div>
                 <div className='w-full sm:w-fit sm:mt-5'>

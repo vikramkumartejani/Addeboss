@@ -11,6 +11,7 @@ import { AnimatedListDemo } from './AnimatedListDemo'
 import { RxCross1 } from "react-icons/rx";
 import { motion, AnimatePresence } from 'framer-motion';
 import { RiMenu4Line } from "react-icons/ri";
+import Link from 'next/link'
  
 
 const Hero = () => {
@@ -26,8 +27,8 @@ const Hero = () => {
                 {/* Navbar Menu */}
                 <div className='w-full flex items-end justify-end'>
                     <div className='md:flex hidden items-center gap-[68px] justify-end'>
-                        <p className='font-semibold text-[15px] text-black leading-[32px]'>登录</p>
-                        <button className='bg-[#2A9CF5] w-[216px] h-[46px] rounded-[10px] text-[#F6F9FE] text-[15px] font-semibold'>创建账户</button>
+                        <Link href='https://cnrmarketplace.com/my-account/' className='font-semibold text-[15px] text-black leading-[32px]'>登录</Link>
+                        <Link href='https://cnrmarketplace.com/vendor-register/' target='_blank' className='flex items-center justify-center bg-[#2A9CF5] w-[216px] h-[46px] rounded-[10px] text-[#F6F9FE] text-[15px] font-semibold'>创建账户</Link>
                     </div>
                     <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className='md:hidden block relative z-50'><RiMenu4Line className='text-black' size={35} />
                     </button>
@@ -47,8 +48,8 @@ const Hero = () => {
                             >
                             <RxCross1 size={30} className='text-white' />
                             </button>
-                            <p className='font-semibold text-[18px] text-white mb-4'>登录</p>
-                            <button className='bg-[#2A9CF5] w-[216px] h-[46px] rounded-[10px] text-[#F6F9FE] text-[15px] font-semibold'>创建账户</button>
+                            <Link href='https://cnrmarketplace.com/my-account/' className='font-semibold text-[18px] text-white mb-4'>登录</Link>
+                            <Link href='https://cnrmarketplace.com/vendor-register/' className='flex items-center justify-center bg-[#2A9CF5] w-[216px] h-[46px] rounded-[10px] text-[#F6F9FE] text-[15px] font-semibold'>创建账户</Link>
                         </motion.div>
                         )}
                     </AnimatePresence>
@@ -60,8 +61,8 @@ const Hero = () => {
                         <h1 className='max-w-[270px] sm:max-w-[437px] w-full font-bold text-[44px] sm:text-[72px] text-[#141736] leading-[67px] sm:leading-[110px]'> 我们有客户， 您有产品</h1>
                         <p className='lg:max-w-[534px] w-full font-normal text-[15px] sm:text-[24px] text-[#141736] opacity-70 mt-[19px] mb-[36px] leading-[27px] sm:leading-[45px]'>让我们来处理吧。我们为您提供所有必要的工具、无限量的客户，以及一个可以建立您业务的平台，而您只需专注于您已经擅长的事情。</p>
                         <div className='flex gap-10 sm:gap-[63px] items-center'>
-                            <button className='w-[161px] sm:w-[260px] bg-[#2A9CF5] h-[28px] sm:h-[46px] border-[1.64px] rounded-[23px] font-semibold text-[11px] sm:text-[18px] text-white'>成为卖家</button>
-                            <p className='text-black text-[11px] sm:text-[18px] font-semibold leading-[36px] underline underline-offset-4'>了解更多</p>
+                            <Link href='https://cnrmarketplace.com/become-a-vendor/' className='flex items-center justify-center w-[161px] sm:w-[260px] bg-[#2A9CF5] h-[28px] sm:h-[46px] border-[1.64px] rounded-[23px] font-semibold text-[11px] sm:text-[18px] text-white'>成为卖家</Link>
+                            <Link href='https://d-themes.com/wordpress/wolmart/elements/about-us/' target='_blank' className='text-black text-[11px] sm:text-[18px] font-semibold leading-[36px] underline underline-offset-4'>了解更多</Link>
                         </div>
                     </div>
                     <div className='w-full'>

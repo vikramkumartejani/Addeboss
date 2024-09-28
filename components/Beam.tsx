@@ -9,7 +9,7 @@ import OIP from "../app/assets/oip.jpg";
 import P from "../app/assets/p.png";
 import Taobao from "../app/assets/taobao.jpeg";
 import Channels from "../app/assets/channels.jpg";
-import Fr from "../app/assets/fr.png";
+import Fr from "../app/assets/fr.jpg";
 import WebChat from "../app/assets/wechat.jpg";
 import MiddleLogo from "../app/assets/middle-logo.gif";
 

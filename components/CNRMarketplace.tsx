@@ -11,6 +11,7 @@ import Left from "../app/assets/L-arrow.svg";
 import Right from "../app/assets/R-arrow.svg";
 import CustomerDiscovery from "../app/assets/customer-discovery.svg";
 import { Swiper as SwiperType } from "swiper";
+import Link from "next/link";
 
 
 const CNRMarketplace = () => {
@@ -134,9 +135,9 @@ const CNRMarketplace = () => {
                 这样的平台。一个一站式的市场，无论是浏览无尽的产品列表还是将新卖家添加到他们的收藏列表中，我们都有这些客户。他们需要你！
               </p>
               <div className="flex items-center justify-center sm:justify-start">
-                <button className="mt-8 sm:mt-12 bg-[#2A9CF5] rounded-[10px] w-[202px] sm:w-[276px] h-[33px] sm:h-[46px] text-white text-[12px] sm:text-[16px] leading-[32px] font-semibold">
+                <Link href='https://cnrmarketplace.com/vendor-register/' target="_blank" className="flex items-center justify-center mt-8 sm:mt-12 bg-[#2A9CF5] rounded-[10px] w-[202px] sm:w-[276px] h-[33px] sm:h-[46px] text-white text-[12px] sm:text-[16px] leading-[32px] font-semibold">
                   现在加入我们
-                </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import React from "react";
 import BgImage from "../app/assets/bg.svg";
 import Image from "next/image";
 import PulsatingButton from "@/components/magicui/pulsating-button";
+import Link from "next/link";
 
 const JoinUs = () => {
   return (
@@ -25,9 +26,15 @@ const JoinUs = () => {
             
             {/* Buttons */}
             <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-6">
+              <Link href='https://cnrmarketplace.com/vendor-register/'>
               <PulsatingButton>Sign Up</PulsatingButton>
+              </Link>
+              <Link href='https://cnrmarketplace.com/'>
               <PulsatingButton>List Your Products</PulsatingButton>
+              </Link>
+              <Link href='https://cnrmarketplace.com/store-listing/'>
               <PulsatingButton>Start Selling</PulsatingButton>
+              </Link>
             </div>
           </div>
         </div>
