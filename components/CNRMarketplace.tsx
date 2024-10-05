@@ -122,7 +122,7 @@ const CNRMarketplace = () => {
           <div className="flex items-center md:flex-row flex-col gap-12 lg:gap-[121px]">
             <Image
               src={CustomerDiscovery}
-              alt="customer-discovery"
+              alt="customer-discovery k"
               width={305}
               height={343}
             />
